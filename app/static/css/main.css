@@ -1,6 +1,59 @@
-#landingLogo {
-    max-width: 100vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.jumbotron{
+	padding-left: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100vh; 
+    padding-bottom: 0;
+    margin-bottom: 0;
+} 
+
+.jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    /*  object-fit is not supported on IE  */
+    object-fit: cover;
+    opacity:0.75;
+    margin-top: -65px;
+  }
+
+#welcome_heading {
+      padding-left: 4px;
+      color: deeppink;
+  }
+
+#landing_caption {
+    text-align: right;
+    padding-left: 4px;
+    padding-top: 310px;
+    margin-bottom: 0;
+  }
+
+#more_info_btn {
+    float: right;
 }
+/*
+@media only screen and (min-width: 768px) {
+    .jumbotron {height: auto};
+    .jumbotron video {margin-top: auto}; 
+    #landing_caption {text-align: right}; 
+} */
+/*
+@media only screen and (min-height: 640px) {
+    #landing_caption {padding-top: 350px; text-align: center};
+}
+
+@media only screen and (min-height: 667px) {
+    #landing_caption {padding-top: 370px; text-align: center};
+}
+
+@media only screen and (min-height: 731px) {
+    #landing_caption {padding-top: 450px; text-align: center};
+}
+
+@media only screen and (min-height: 812px) {
+    #landing_caption {padding-top: 505px; text-align: center};
+} */
+
