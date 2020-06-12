@@ -34,12 +34,69 @@
 #more_info_btn {
     float: right;
 }
-/*
+
+p {
+    text-align: center;
+}
+
+#about {
+    text-align:center;
+}
+
+#about_section {
+    background-color: #8BD5FD;
+}
+
+.img-container {
+    padding-top: 15px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#FC73DE;
+}
+
+.img-container:hover .overlay, .img-container:hover .overlay-blue {
+    opacity: .7;
+}
+
+.overlay-blue {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#73CCFC;
+}
+
+.text {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
-    .jumbotron {height: auto};
-    .jumbotron video {margin-top: auto}; 
-    #landing_caption {text-align: right}; 
-} */
+    p {text-align: justify}; 
+    h1 #about {text-align: left} ;
+} 
 /*
 @media only screen and (min-height: 640px) {
     #landing_caption {padding-top: 350px; text-align: center};
