@@ -1,3 +1,15 @@
+.nav-item {
+    font-size: 1.5em;
+}
+
+.navbar-brand {
+    transition: transform .5s; /* Animation */
+}
+
+.navbar-brand:hover {
+    transform: scale(1.5) rotate(360deg);
+  }
+
 .jumbotron{
 	padding-left: 0;
     position: relative;
@@ -15,12 +27,12 @@
     height:100%;
     /*  object-fit is not supported on IE  */
     object-fit: cover;
-    opacity:0.75;
+    /* opacity:0.9; */
     margin-top: -65px;
   }
 
 #welcome_heading {
-      padding-left: 4px;
+      padding-left: 15px;
       color: deeppink;
   }
 
@@ -43,9 +55,10 @@ p {
     text-align:center;
 }
 
-#about_section {
+#about_section:hover {
     background-color: #8BD5FD;
-}
+    transition: .5s ease;
+} 
 
 .img-container {
     padding-top: 15px;
@@ -91,6 +104,10 @@ p {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+ul {
+    list-style: none;
 }
 
 @media only screen and (min-width: 768px) {
