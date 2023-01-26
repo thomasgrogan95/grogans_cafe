@@ -139,6 +139,61 @@ h2 {
     text-align:center;
 }
 
+/*Social Icons*/
+
+ul.socialIcons {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .socialIcons li {
+
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+  }
+  
+  .socialIcons li a {
+    display: block;
+    padding-left: .7em;
+    padding-top: .5em;
+    min-width: 2.28571429em;
+    max-width: 2.28571429em;
+    height: 2.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em; /*it's working only when you write text with icon*/
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+  }
+  
+  .socialIcons li i {
+    margin-right: 0.5em;
+  }
+  
+  .socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+  }
+  
+  .socialIcons .facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+  }
+  
+  .socialIcons .tiktok {
+    background-color: #000000;
+    box-shadow: 0 0 16px #000000;
+  }
+  
+  .socialIcons .instagram {
+    background-color: #c13584;
+    box-shadow: 0 0 16px #c13584;
+  }
+  
 
 
 /*
