@@ -134,6 +134,13 @@ h2 {
 .card {
     background-color: #f8f9fa;
 }
+
+#visit-us {
+    text-align:center;
+}
+
+
+
 /*
 @media only screen and (min-height: 640px) {
     #landing_caption {padding-top: 350px; text-align: center};
